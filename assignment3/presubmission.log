@@ -1,0 +1,16 @@
+Script started on 2021-11-14 19:10:39-07:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="80" LINES="24"]
+yulong6@ug01:~/Desktop>cp -R assignment3.tgz test
+yulong6@ug01:~/Desktop>cd test
+yulong6@ug01:~/Desktop/test>tar -xvf assignment3.tgz
+assignment3/
+assignment3/board.py
+assignment3/board_util.py
+assignment3/Gomoku3.py
+assignment3/assignment3-public-tests.gtp
+assignment3/gtp_connection.py
+yulong6@ug01:~/Desktop/test>cd assignment3
+yulong6@ug01:~/Desktop/test/assignment3>gogui-regress ./Gomoku3.py assignment3-p ublic-tests.gtp
+yulong6@ug01:~/Desktop/test/assignment3>exit
+exit
+
+Script done on 2021-11-14 19:11:50-07:00 [COMMAND_EXIT_CODE="0"]

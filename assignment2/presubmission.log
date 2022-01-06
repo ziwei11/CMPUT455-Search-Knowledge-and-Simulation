@@ -1,0 +1,20 @@
+Script started on 2021-10-18 15:43:42-06:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="80" LINES="24"]
+yulong6@ug01:~/Desktop>cp -R assignment2.tgz test
+yulong6@ug01:~/Desktop>cd test
+yulong6@ug01:~/Desktop/test>tar -cv[K[Kxvf assignment2.tgz 
+assignment2/
+assignment2/gtp_connection.py
+assignment2/board.py
+assignment2/readme.txt
+assignment2/transpositiontable.py
+assignment2/Gomoku.py
+assignment2/zobristhash.py
+assignment2/alphabeta.py
+assignment2/assignment2-public-tests.gtp
+assignment2/board_util.py
+yulong6@ug01:~/Desktop/test>cd assignment2
+yulong6@ug01:~/Desktop/test/assignment2>gogui-regress ./Gomoku.py assignment2-public-tests.gtp 
+yulong6@ug01:~/Desktop/test/assignment2>exit
+exit
+
+Script done on 2021-10-18 15:46:26-06:00 [COMMAND_EXIT_CODE="0"]

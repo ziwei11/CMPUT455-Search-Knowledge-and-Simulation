@@ -1,0 +1,89 @@
+Script started on 2021-12-13 22:45:35-07:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+yulong6@ug01:~/Desktop>cp-[K -R assignment4.tgz test
+yulong6@ug01:~/Desktop>cd test
+yulong6@ug01:~/Desktop/test>tar -xvf s[Kassignment4.tgz
+assignment4/
+assignment4/._play.py
+assignment4/._random_player
+assignment4/._gomoku4
+assignment4/play.py
+assignment4/._flat_mc_player
+assignment4/1606/
+assignment4/1606/._simple_board.py
+assignment4/1606/__pycache__/
+assignment4/1606/__pycache__/mcts.cpython-38.pyc
+assignment4/1606/__pycache__/alphabeta.cpython-38.pyc
+assignment4/1606/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/1606/__pycache__/simple_board.cpython-38.pyc
+assignment4/1606/__pycache__/board_util.cpython-38.pyc
+assignment4/1606/gtp_connection.py
+assignment4/1606/._Gomoku4.py
+assignment4/1606/._alphabeta.py
+assignment4/1606/._gtp_connection.py
+assignment4/1606/mcts.py
+assignment4/1606/Gomoku4.py
+assignment4/1606/removeSpace.py
+assignment4/1606/._board_util.py
+assignment4/1606/board_util.py
+assignment4/1606/simple_board.py
+assignment4/1606/._removeSpace.py
+assignment4/1606/alphabeta.py
+assignment4/flat_mc_player/
+assignment4/flat_mc_player/Gomoku3.py
+assignment4/flat_mc_player/._gtp_connection.py
+assignment4/flat_mc_player/._board_util.py
+assignment4/flat_mc_player/simple_board.py
+assignment4/flat_mc_player/._Gomoku3.py
+assignment4/flat_mc_player/board_util.py
+assignment4/flat_mc_player/._removeSpace.py
+assignment4/flat_mc_player/._alphabeta.py
+assignment4/flat_mc_player/removeSpace.py
+assignment4/flat_mc_player/alphabeta.py
+assignment4/flat_mc_player/._simple_board.py
+assignment4/flat_mc_player/gtp_connection.py
+assignment4/random_player/
+assignment4/random_player/gtp_connection.py
+assignment4/random_player/._board_util.py
+assignment4/random_player/._simple_board.py
+assignment4/random_player/._gtp_connection.py
+assignment4/random_player/simple_board.py
+assignment4/random_player/._Gomoku2.py
+assignment4/random_player/board_util.py
+assignment4/random_player/Gomoku2.py
+assignment4/random_player/__pycache__/
+assignment4/random_player/__pycache__/simple_board.cpython-38.pyc
+assignment4/random_player/__pycache__/board_util.cpython-38.pyc
+assignment4/random_player/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/readme.txt
+yulong6@ug01:~/Desktop/test>cd assignment4
+yulong6@ug01:~/Desktop/test/assignment4>python3 play.py
+player1: 1606/Gomoku4.py
+player2: random_player/Gomoku2.py
+Game:  1
+D4
+F6
+D1
+G6
+C1
+B5
+A2
+G4
+D3
+E4
+E2
+C7
+E3
+D7
+G1
+F1
+C3
+G5
+F3
+D2
+B3
+player1 wins
+player1 win 1 player2 win 0 draw 0
+yulong6@ug01:~/Desktop/test/assignment4>exit
+exit
+
+Script done on 2021-12-13 22:46:24-07:00 [COMMAND_EXIT_CODE="0"]
